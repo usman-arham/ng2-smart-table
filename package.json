@@ -1,5 +1,5 @@
 {
-  "name": "ng2-smart-table",
+  "name": "@usmanarham/ng2-smart-table",
   "version": "1.7.6",
   "scripts": {
     "ng": "ng",
