@@ -1,6 +1,6 @@
 {
   "name": "ng2-smart-table",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -13,7 +13,8 @@
     "publish": "npm publish --access=public dist/ng2-smart-table",
     "changelog": "standard-changelog -p angular",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "prepare": "npm run build"
   },
   "private": true,
   "dependencies": {
