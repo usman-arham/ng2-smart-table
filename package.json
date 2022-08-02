@@ -14,8 +14,8 @@
     "changelog": "standard-changelog -p angular",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "prepare": "npm run build:lib",
-    "postinstall": "npm install --legacy-peer-deps && npm run build:lib"
+    // "prepare": "npm run build:lib",
+    "postinstall": "cd ./node_modules/ng2-smart-table npm install --legacy-peer-deps && npm run build:lib"
   },
   "private": true,
   "dependencies": {
