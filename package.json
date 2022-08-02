@@ -13,8 +13,7 @@
     "publish": "npm publish --access=public dist/ng2-smart-table",
     "changelog": "standard-changelog -p angular",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "cd ./node_modules/ng2-smart-table npm install --legacy-peer-deps && npm run build:lib"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
